@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>나의 웹</title>
+    <link rel="stylesheet" href="mycss.css">
+ <style media="screen">
+ h1{
+   border-bottom: 1px solid black;
+   margin: 0px;
+   text-align: center;
+   font-size: 50px;
+   padding: 20px;
+ }
+ h2 {
+   color: red;
+ }
+ a {
+   text-decoration: none;
+ }
+ ol{
+   border-right: 1px solid black;
+   margin: 0px;
+   width: 100px;
+   padding: 20px;
+   font-size: 15px;
+ }
+ table, th, td {
+   border: 1px solid black;
+   text-align: left;
+   border-collapse: collapse;
+ }
+ th, td {
+  padding: 15px;
+}
+#t01 {
+  background-color: gray;
+  text-align: center;
+}
+.grid{
+     display: grid;
+     grid-template-columns: 200px 1fr 1fr;
+   }
+.bb{
+   padding-right: 10px;
+   }
+
+   @media (max-width: 600px) {
+     .grid{
+       display: block;
+     }
+   }
+ </style>
+</head>
+
+  <body>
+    <h1><a href="index.html" style="color:green;">내가 좋아하는 것들</a></h1>
+    <div class="grid">
+      <div class="b">
+        <ol>
+         <li><a href="1.html" class="darkknight">다크나이트 라이즈</a></li>
+         <li><a href="2.html">라이언 고슬링</a></li>
+         <li><a href="3.html">크리스토퍼 놀란</a></li>
+          <li><a href="4.html">닭갈비</a></li>
+        </ol>
+      </div>
+      <div class="bb">
+        <h2>다크나이트 라이즈</h2>
+        <img src="darkknight rises.jpg" alt="darkknight rises"
+        style="width:250px;height:400px;">
+        <table>
+          <tr>
+            <th id="t01">장르</th>
+            <th>슈퍼히어로, 액션, 범죄, 스릴러</th>
+          </tr>
+          <tr>
+            <th id="t01">감독</th>
+            <th>크리스토퍼 놀란</th>
+          </tr>
+          <tr>
+            <th id="t01">음악</th>
+            <th>한스 짐머</th>
+          </tr>
+          <tr>
+            <th id="t01">제작사</th>
+            <th>레전더리 픽처스, 신카피</th>
+          </tr>
+          <tr>
+            <th id="t01">제작비</th>
+            <th>2억 5,000만 달러</th>
+          </tr>
+        </table>
+      </div>
+      <div class="bbb">
+        <p>크리스토퍼 놀란이 감독하고 동생 조너선 놀란이 공동 각본, 데이빗 S. 고이어 원안의 2012년에 개봉한 슈퍼히어로 영화.</p>
+        <p>DC 코믹스의 캐릭터 배트맨을 기반으로한 영화 <다크 나이트>의 속편이자 다크 나이트 트릴로지 마지막 작품.</p>
+        <p>다크 나이트의 8년 후를 배경으로 하고 있다. 전세계적으로 10억 7천 5백만 달러(이 중 미국에서만 4억 4천 8백만 달러)를
+          벌어서 역대 흥행순위 7위가 되었으며, 전작인 다크 나이트(역대 흥행순위 13위)보다 7천만 달러 정도를 더 벌었다.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/gXU0eB47YlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>

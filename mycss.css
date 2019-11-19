@@ -1,0 +1,35 @@
+<style media="screen">
+h1{
+  border-bottom: 1px solid black;
+  margin: 0px;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+h2 {
+  color: red;
+}
+a {
+  text-decoration: none;
+}
+ol{
+  border-right: 1px solid black;
+  margin: 0px;
+  width: 100px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.darkknight {color:black;}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  .b{
+  }
+  @media (max-width: 600px) {
+    .grid{
+      display: block;
+    }
+  }
+</style>

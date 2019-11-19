@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>나의 웹</title>
+    <style media="screen">
+    h1{
+      border-bottom: 1px solid black;
+      margin: 0px;
+      text-align: center;
+      font-size: 50px;
+      padding: 20px;
+    }
+    ol{
+      border-right: 1px solid black;
+      margin: 0px;
+      width: 100px;
+      padding: 20px;
+      font-size: 15px;
+    }
+    a {
+      text-decoration: none;
+    }
+    table, th, td {
+      border: 1px solid black;
+      text-align: left;
+      border-collapse: collapse;
+    }
+    th, td {
+     padding: 5px;
+   }
+    table {
+      width: 650px;
+      height: 300px;
+      float: right;
+    }
+    #t01 {
+      background-color: gray;
+      text-align: center;
+      width: 70px;
+    }
+     .grid{
+          display: grid;
+          grid-template-columns: 200px 1fr;
+        }
+    </style>
+  </head>
+
+  <body>
+    <h1><a href="index.html" style="color:green;">내가 좋아하는 것들</a></h1>
+    <div class="grid">
+      <div class="">
+        <ol>
+         <li><a href="1.html">다크나이트 라이즈</a></li>
+         <li><a href="2.html">라이언 고슬링</a></li>
+         <li><a href="3.html">크리스토퍼 놀란</a></li>
+          <li><a href="4.html">닭갈비</a></li>
+        </ol>
+      </div>
+      <div class="">
+        <h2>크리스토퍼 놀란</h2>
+        <img src="Christopher.jpg" alt="Christopher Nolan" style="width:200px;height:300px;">
+        <table>
+          <tr>
+            <th id="t01">이름</th>
+            <th>크리스토퍼 에드워드 놀란(Christopher Edward Nolan)</th>
+          </tr>
+          <tr>
+            <th id="t01">국적</th>
+            <th>영국, 미국</th>
+          </tr>
+          <tr>
+            <th id="t01">출생</th>
+            <th>1970년 7월 30일</th>
+          </tr>
+          <tr>
+            <th id="t01">직업</th>
+            <th>영화감독</th>
+          </tr>
+          <tr>
+            <th id="t01">배우자</th>
+            <th>엠마 토마스</th>
+          </tr>
+          <tr>
+            <th id="t01">특징</th>
+            <th>현실주의적, 사실적 영화연출을 선호하는편, cg사용을 최소화한다. 아이맥스를 상업영화에 처음 도입한 감독.</th>
+          </tr>
+        </table>
+        <h2>대표작품</h2>
+        <img src="memento.jpg" alt="memento" style="width:150px;height:200px;">
+        <img src="darkknight.jpg" alt="darkknight" style="width:150px;height:200px;">
+        <img src="inception.jpg" alt="inception" style="width:150px;height:200px;">
+        <img src="interstellar.jpg" alt="interstellar" style="width:150px;height:200px;">
+      </div>
+    </div>
+  </body>
+</html>
